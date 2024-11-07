@@ -1,0 +1,1463 @@
+body{
+    width: 100vw;
+    overflow-x: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  
+  main{
+    display: block;
+    position: relative;
+    width: 2200px;
+    overflow-x: hidden;
+    min-height: 100vh;
+  }
+
+.facade{
+  font-family: 'FacadeGX';/*on réutilise le nom choisi au sein du fichier font_liste.css*/
+}
+
+
+.sixtyhour{
+  font-family: 'sixtyhour';
+}
+
+
+
+
+#premier {
+  color: sienna;
+  font-size: 70px;
+  position: absolute;
+  left: 1790px;
+  animation-name: triiii; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+  animation-duration: 5s; /*durée totale d'une itération de l'animation en seconde*/
+  animation-iteration-count: 1; /*nombre d'itération de l'animation*/
+  animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+  animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+	animation-delay : 1s;/*faire démarer une animation un peu en retard*/
+  /*--------------------------------------------------------------------------------------------*/
+}
+ 
+@keyframes triiii {
+  0%{position: absolute;
+    left: 1790px
+  }
+
+  100%{position: absolute;
+    left: 2300px;
+  }
+
+}
+#deuxieme {
+  color: sienna;
+  font-size: 60px;
+  position: absolute;
+  left: 1970px; top: 70px;
+  animation-name: trii; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+  animation-duration: 5s; /*durée totale d'une itération de l'animation en seconde*/
+  animation-iteration-count: 1; /*nombre d'itération de l'animation*/
+  animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+  animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+	animation-delay : 1s;/*faire démarer une animation un peu en retard*/
+  /*--------------------------------------------------------------------------------------------*/
+}
+
+@keyframes trii {
+  0%{position: absolute;
+    left: 1970px; top :70px;
+  }
+
+  100%{position: absolute;
+    left: 2400px; top : 70px;
+  }
+}
+  #troisieme {
+    color: sienna;
+  font-size: 280px;
+  position: absolute;
+  left: 410px;   top: 230px;
+  transform: rotate(20deg);/*inclinaison */
+
+}
+
+#quatrieme {
+  color: sienna;
+  font-size: 300px;
+  position: absolute;
+  left: 310px; top: 850px;
+  transform: rotate(-20deg);/*inclinaison */
+
+}
+
+#cinquieme {
+  color: navajowhite;
+  font-size: 160px;
+  position: absolute;
+  left: 220px; top: 380px;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+      animation-delay : 1s;
+      animation-iteration-count: infinite;
+
+  }
+  
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+
+#sixieme {
+  color: navajowhite;
+  font-size: 160px;
+  position: absolute;
+  left: 220px; top: 580px;overflow: hidden; /* Ensures the content is not revealed until the animation */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+    animation-delay : 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+
+#septieme {
+  color: navajowhite;
+  font-size: 160px;
+  position: absolute;
+  left: 220px; top: 780px;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+      animation-delay : 3s;
+      animation-iteration-count: infinite;
+
+  }
+  
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+
+#huitieme{
+  color: navajowhite;
+  font-size: 160px;
+  position: absolute;
+  left: 220px; top: 980px;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+    animation-delay : 4s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+
+#un{
+  color: darkslategray;
+  font-size: 54px;
+  position: absolute;
+  left: 103px; top: 1409px;
+  transform: rotate(-10deg);
+  animation-name: bip; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+  animation-duration: 800ms; /*durée totale d'une itération de l'animation en seconde*/
+  animation-iteration-count: infinite; /*nombre d'itération de l'animation*/
+  animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+  animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+	animation-delay : 0s;/*faire démarer une animation un peu en retard*/
+  /*--------------------------------------------------------------------------------------------*/
+}
+
+@keyframes bip { /*ici vous renseignez le nom de l'animation à réutiliser 
+  pour la propriété animation-name*/
+  
+0%{opacity: 0;
+}
+
+100%{opacity: 100;}
+}
+
+#deux{
+  color: navy;
+  font-size: 54px;
+  position: absolute;
+  left: 140px; top: 1420px;
+  transform: rotate(-10deg);
+  animation-name: bipdeux ; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+  animation-duration: 700ms; /*durée totale d'une itération de l'animation en seconde*/
+  animation-iteration-count: infinite; /*nombre d'itération de l'animation*/
+  animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+  animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+	animation-delay : 0s;
+}
+
+@keyframes bipdeux { /*ici vous renseignez le nom de l'animation à réutiliser 
+  pour la propriété animation-name*/
+  
+0%{opacity: 100;
+}
+
+100%{opacity: 0;}
+}
+
+#trois{
+  color: black;
+  font-size: 100px;
+  position: absolute;
+  left: 300px; top: 2000px;
+  transform: rotate(-10deg);
+  animation-name: bipdeux ; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+  animation-duration: 700ms; /*durée totale d'une itération de l'animation en seconde*/
+  animation-iteration-count: infinite; /*nombre d'itération de l'animation*/
+  animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+  animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+	animation-delay : 0s;
+}
+
+@keyframes bipdeux { /*ici vous renseignez le nom de l'animation à réutiliser 
+  pour la propriété animation-name*/
+  
+0%{opacity: 100;
+}
+
+100%{opacity: 0;}
+}
+
+#quatre{
+  color: darkslategray;
+  font-size: 150px;
+  position: absolute;
+  left: 1500px; top: 1700px;
+  animation-name: bip; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+  animation-duration: 800ms; /*durée totale d'une itération de l'animation en seconde*/
+  animation-iteration-count: infinite; /*nombre d'itération de l'animation*/
+  animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+  animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+	animation-delay : 0s;/*faire démarer une animation un peu en retard*/
+  /*--------------------------------------------------------------------------------------------*/
+}
+
+@keyframes bip { /*ici vous renseignez le nom de l'animation à réutiliser 
+  pour la propriété animation-name*/
+  
+0%{opacity: 0;
+}
+
+100%{opacity: 100;}
+}
+
+
+#cinq{
+  color: navy;
+  font-size: 70px;
+  position: absolute;
+  left: 800px; top: 1600px;
+  transform: rotate(20deg);
+  animation-name: bip; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+  animation-duration: 800ms; /*durée totale d'une itération de l'animation en seconde*/
+  animation-iteration-count: infinite; /*nombre d'itération de l'animation*/
+  animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+  animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+	animation-delay : 0s;/*faire démarer une animation un peu en retard*/
+  /*--------------------------------------------------------------------------------------------*/
+}
+
+@keyframes bip { /*ici vous renseignez le nom de l'animation à réutiliser 
+  pour la propriété animation-name*/
+  
+0%{opacity: 0;
+}
+
+100%{opacity: 100;}
+}
+
+#six{
+  color: darkslategray;
+  font-size: 200px;
+  position: absolute;
+  left: 440px; top: 1600px;
+  transform: rotate(10deg);
+  animation-name: bip ; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+  animation-duration: 800ms; /*durée totale d'une itération de l'animation en seconde*/
+  animation-iteration-count: infinite; /*nombre d'itération de l'animation*/
+  animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+  animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+	animation-delay : 0s;
+}
+
+@keyframes bip { /*ici vous renseignez le nom de l'animation à réutiliser 
+  pour la propriété animation-name*/
+  
+0%{opacity: 100;
+}
+
+100%{opacity: 0;}
+}
+
+
+#sept{
+  font-size: 80px;
+  position: absolute;
+  left: 800px; top: 1550px;
+  animation-name: biptrois ; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+  animation-duration: 600ms; /*durée totale d'une itération de l'animation en seconde*/
+  animation-iteration-count: infinite; /*nombre d'itération de l'animation*/
+  animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+  animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+	animation-delay : 0s;
+}
+
+@keyframes biptrois { /*ici vous renseignez le nom de l'animation à réutiliser 
+  pour la propriété animation-name*/
+  
+0%{opacity: 100;
+}
+
+100%{opacity: 0;}
+}
+
+
+
+#huit{
+  color: darkslategray;
+  font-size: 150px;
+  position: absolute;
+  left: 1500px; top: 1400px;
+  animation-name: bipdeux ; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+  animation-duration: 700ms; /*durée totale d'une itération de l'animation en seconde*/
+  animation-iteration-count: infinite; /*nombre d'itération de l'animation*/
+  animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+  animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+	animation-delay : 0s;
+}
+
+@keyframes bipdeux { /*ici vous renseignez le nom de l'animation à réutiliser 
+  pour la propriété animation-name*/
+  
+0%{opacity: 100;
+}
+
+100%{opacity: 0;}
+}
+
+
+#neuf{
+  color: black;
+  font-size: 250px;
+  position: absolute;
+  left: 900px; top: 2200px;
+  animation-name: bipdeux ; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+  animation-duration: 700ms; /*durée totale d'une itération de l'animation en seconde*/
+  animation-iteration-count: infinite; /*nombre d'itération de l'animation*/
+  animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+  animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+	animation-delay : 0s;
+}
+
+@keyframes bipdeux { /*ici vous renseignez le nom de l'animation à réutiliser 
+  pour la propriété animation-name*/
+  
+0%{opacity: 100;
+}
+
+100%{opacity: 0;}
+}
+
+
+#dix{
+  font-size: 50px;
+  position: absolute;
+  left: 947px; top: 2305px;
+  animation-name: bip; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+  animation-duration: 800ms; /*durée totale d'une itération de l'animation en seconde*/
+  animation-iteration-count: infinite; /*nombre d'itération de l'animation*/
+  animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+  animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+	animation-delay : 0s;/*faire démarer une animation un peu en retard*/
+  /*--------------------------------------------------------------------------------------------*/
+}
+
+@keyframes bip { /*ici vous renseignez le nom de l'animation à réutiliser 
+  pour la propriété animation-name*/
+  
+0%{opacity: 0;
+}
+
+100%{opacity: 100;}
+}
+
+
+#onze{
+  color: darkslategray;
+  font-size: 50px;
+  position: absolute;
+  left: 1125px; top: 2305px;
+  animation-name: biptrois ; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+  animation-duration: 600ms; /*durée totale d'une itération de l'animation en seconde*/
+  animation-iteration-count: infinite; /*nombre d'itération de l'animation*/
+  animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+  animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+	animation-delay : 0s;
+}
+
+@keyframes biptrois { /*ici vous renseignez le nom de l'animation à réutiliser 
+  pour la propriété animation-name*/
+  
+0%{opacity: 100;
+}
+
+100%{opacity: 0;}
+}
+
+#douze{
+  color: darkslategray;
+font-size: 140px;
+position: absolute;
+left: 1250px; top: 1950px;
+transform: rotate(-10deg);
+animation-name: bip ; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+animation-duration: 800ms; /*durée totale d'une itération de l'animation en seconde*/
+animation-iteration-count: infinite; /*nombre d'itération de l'animation*/
+animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+animation-delay : 0s;
+}
+
+@keyframes bip { /*ici vous renseignez le nom de l'animation à réutiliser 
+pour la propriété animation-name*/
+
+0%{opacity: 100;
+}
+
+100%{opacity: 0;}
+}
+
+#treize{
+  color: black;
+  font-size: 190px;
+  position: absolute;
+  left: 1250px; top: 1950px;
+  transform: rotate(10deg);
+  animation-name: biptrois ; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+  animation-duration: 600ms; /*durée totale d'une itération de l'animation en seconde*/
+  animation-iteration-count: infinite; /*nombre d'itération de l'animation*/
+  animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+  animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+  animation-delay : 0s;
+  }
+  
+  @keyframes biptrois { /*ici vous renseignez le nom de l'animation à réutiliser 
+  pour la propriété animation-name*/
+  
+  0%{opacity: 100;
+  }
+  
+  100%{opacity: 0;}
+  }
+
+  #quatorze{
+    color: darkslategray;
+  font-size: 110px;
+  position: absolute;
+  left: 520px; top: 2550px;
+  animation-name: biptrois ; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+  animation-duration: 600ms; /*durée totale d'une itération de l'animation en seconde*/
+  animation-iteration-count: infinite; /*nombre d'itération de l'animation*/
+  animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+  animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+  animation-delay : 0s;
+  }
+  
+  @keyframes biptrois { /*ici vous renseignez le nom de l'animation à réutiliser 
+  pour la propriété animation-name*/
+  
+  0%{opacity: 100;
+  }
+  
+  100%{opacity: 0;}
+  }
+
+  #quinze{
+    color: darkslategray;
+    font-size: 110px;
+    position: absolute;
+    transform: rotate(10deg);
+    left: 800px; top: 2550px;
+    animation-name: bipdeux ; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+    animation-duration: 700ms; /*durée totale d'une itération de l'animation en seconde*/
+    animation-iteration-count: infinite; /*nombre d'itération de l'animation*/
+    animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+    animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+    animation-delay : 0s;
+    }
+    
+    @keyframes biptrois { /*ici vous renseignez le nom de l'animation à réutiliser 
+    pour la propriété animation-name*/
+    
+    0%{opacity: 100;
+    }
+    
+    100%{opacity: 0;}
+    }
+
+    #seize{
+      color: navy;
+      font-size: 130px;
+      position: absolute;
+      transform: rotate(-10deg);
+      left: 1700px; top: 2400px;
+      animation-name: bipdeux ; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+      animation-duration: 700ms; /*durée totale d'une itération de l'animation en seconde*/
+      animation-iteration-count: infinite; /*nombre d'itération de l'animation*/
+      animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+      animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+      animation-delay : 0s;
+      }
+      
+      @keyframes biptrois { /*ici vous renseignez le nom de l'animation à réutiliser 
+      pour la propriété animation-name*/
+      
+      0%{opacity: 100;
+      }
+      
+      100%{opacity: 0;}
+      }
+
+      #zip{
+        color: darkslategray;
+        font-size: 200px;
+        position: absolute;
+        top: 2900px;
+      }
+
+      #zip i{
+        position: relative;
+        left: 0px;
+        transition-property: left;
+        transition-duration: 80s;
+      }
+
+      #zip:hover i{
+        font-size: 200px;
+        left: 0px;
+        animation-name: zip ; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+      animation-duration: 5s; /*durée totale d'une itération de l'animation en seconde*/
+      animation-iteration-count: 1; /*nombre d'itération de l'animation*/
+      animation-fill-mode: forwards;
+
+      }
+      
+      @keyframes zip { /*ici vous renseignez le nom de l'animation à réutiliser 
+        pour la propriété animation-name*/
+        
+        0%{
+          left: 0px;
+        }
+        100% { 
+          left: 3000px;
+        
+        }
+      }
+
+      #ploc{
+        color: lightskyblue;
+        opacity: 0%;
+        font-size: 200px;
+        position: absolute;
+        top: 3400px;
+        left: 850px;
+        animation-name: ploc ; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+      animation-duration: 4000ms; /*durée totale d'une itération de l'animation en seconde*/
+      animation-iteration-count: infinite; /*nombre d'itération de l'animation*/
+      animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+      animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+      animation-delay : 0s;
+      }
+
+      @keyframes ploc { /*ici vous renseignez le nom de l'animation à réutiliser 
+        pour la propriété animation-name*/
+        
+        0%{opacity: 0%;
+        }
+        100% {opacity: 100%;
+        
+        }
+      }
+
+      #plocun{
+        color: lightskyblue;
+        opacity: 0%;
+        font-size: 100px;
+        position: absolute;
+        top: 3800px;
+        left: 90px;
+        animation-name: plocun ; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+      animation-duration: 500ms; /*durée totale d'une itération de l'animation en seconde*/
+      animation-iteration-count: 1; /*nombre d'itération de l'animation*/
+      animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+      animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+      animation-delay : 1s;
+  
+      }
+
+      @keyframes plocun { /*ici vous renseignez le nom de l'animation à réutiliser 
+        pour la propriété animation-name*/
+        
+        0%{opacity: 0%;
+        }
+        100% {opacity: 100%;
+        
+        }
+      }
+
+      #plocdeux{
+        color: lightskyblue;
+        opacity: 0%;
+        font-size: 100px;
+        position: absolute;
+        top: 3800px;
+        left: 280px;
+        animation-name: plocdeux ; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+      animation-duration: 500ms; /*durée totale d'une itération de l'animation en seconde*/
+      animation-iteration-count: 1; /*nombre d'itération de l'animation*/
+      animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+      animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+      animation-delay : 2s;
+  
+      }
+
+      @keyframes plocdeux { /*ici vous renseignez le nom de l'animation à réutiliser 
+        pour la propriété animation-name*/
+        
+        0%{opacity: 0%;
+        }
+        100% {opacity: 100%;
+        
+        }
+
+      }
+      #ploctrois{
+        color: lightskyblue;
+        opacity: 0%;
+        font-size: 100px;
+        position: absolute;
+        top: 3800px;
+        left: 470px;
+        animation-name: ploctrois ; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+      animation-duration: 500ms; /*durée totale d'une itération de l'animation en seconde*/
+      animation-iteration-count: 1; /*nombre d'itération de l'animation*/
+      animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+      animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+      animation-delay : 3s;
+  
+      }
+
+      @keyframes ploctrois { /*ici vous renseignez le nom de l'animation à réutiliser 
+        pour la propriété animation-name*/
+        
+        0%{opacity: 0%;
+        }
+        100% {opacity: 100%;
+        
+        }
+      }  
+      
+      #plocquatre{
+        color: lightskyblue;
+        opacity: 0%;
+        font-size: 100px;
+        position: absolute;
+        top: 3800px;
+        left: 660px;
+        animation-name: plocquatre ; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+      animation-duration: 500ms; /*durée totale d'une itération de l'animation en seconde*/
+      animation-iteration-count: 1; /*nombre d'itération de l'animation*/
+      animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+      animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+      animation-delay : 4s;
+  
+      }
+
+      @keyframes plocquatre { /*ici vous renseignez le nom de l'animation à réutiliser 
+        pour la propriété animation-name*/
+        
+        0%{opacity: 0%;
+        }
+        100% {opacity: 100%;
+        
+        }
+
+      }
+      #ploccinq{
+        color: lightskyblue;
+        opacity: 0%;
+        font-size: 100px;
+        position: absolute;
+        top: 3800px;
+        left: 850px;
+        animation-name: ploccinq ; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+      animation-duration: 500ms; /*durée totale d'une itération de l'animation en seconde*/
+      animation-iteration-count: 1; /*nombre d'itération de l'animation*/
+      animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+      animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+      animation-delay : 5s;
+  
+      }
+
+      @keyframes ploccinq { /*ici vous renseignez le nom de l'animation à réutiliser 
+        pour la propriété animation-name*/
+        
+        0%{opacity: 0%;
+        }
+        100% {opacity: 100%;
+        
+        }
+
+     }
+
+     #plocsix{
+      color: lightskyblue;
+      opacity: 0%;
+      font-size: 100px;
+      position: absolute;
+      top: 3800px;
+      left: 1040px;
+      animation-name: plocsix ; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+    animation-duration: 500ms; /*durée totale d'une itération de l'animation en seconde*/
+    animation-iteration-count: 1; /*nombre d'itération de l'animation*/
+    animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+    animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+    animation-delay : 6s;
+ 
+    }
+ 
+    @keyframes plocsix { /*ici vous renseignez le nom de l'animation à réutiliser 
+      pour la propriété animation-name*/
+      
+      0%{opacity: 0%;
+      }
+      100% {opacity: 100%;
+      
+      }
+    }
+    
+     #plocsept{
+      color: lightskyblue;
+        opacity: 0%;
+        font-size: 100px;
+        position: absolute;
+        top: 3800px;
+        left: 1230px;
+        animation-name: plocsept ; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+      animation-duration: 500ms; /*durée totale d'une itération de l'animation en seconde*/
+      animation-iteration-count: 1; /*nombre d'itération de l'animation*/
+      animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+      animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+      animation-delay : 7s;
+  
+      }
+
+      @keyframes plocsept { /*ici vous renseignez le nom de l'animation à réutiliser 
+        pour la propriété animation-name*/
+        
+        0%{opacity: 0%;
+        }
+        100% {opacity: 100%;
+        
+        }
+      }
+
+    #plochuit{
+      color: lightskyblue;
+       opacity: 0%;
+       font-size: 100px;
+       position: absolute;
+       top: 3800px;
+       left: 1420px;
+       animation-name: plochuit ; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+     animation-duration: 500ms; /*durée totale d'une itération de l'animation en seconde*/
+     animation-iteration-count: 1; /*nombre d'itération de l'animation*/
+     animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+     animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+     animation-delay : 8s;
+ 
+     }
+
+     @keyframes plochuit { /*ici vous renseignez le nom de l'animation à réutiliser 
+       pour la propriété animation-name*/
+       
+       0%{opacity: 0%;
+       }
+       100% {opacity: 100%;
+       
+       }
+
+     }
+
+     #plocneuf{
+      color: lightskyblue;
+      opacity: 0%;
+      font-size: 100px;
+      position: absolute;
+      top: 3800px;
+      left: 1610px;
+      animation-name: plocneuf ; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+    animation-duration: 500ms; /*durée totale d'une itération de l'animation en seconde*/
+    animation-iteration-count: 1; /*nombre d'itération de l'animation*/
+    animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+    animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+    animation-delay : 9s;
+
+    }
+
+    @keyframes plocneuf { /*ici vous renseignez le nom de l'animation à réutiliser 
+      pour la propriété animation-name*/
+      
+      0%{opacity: 0%;
+      }
+      100% {opacity: 100%;
+      
+      }
+    }
+      
+    #plocdix{
+      color: lightskyblue;
+      opacity: 0%;
+      font-size: 100px;
+      position: absolute;
+      top: 3800px;
+      left: 1790px;
+      animation-name: plocdix ; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+    animation-duration: 500ms; /*durée totale d'une itération de l'animation en seconde*/
+    animation-iteration-count: 1; /*nombre d'itération de l'animation*/
+    animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+    animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+    animation-delay : 10s;
+
+    }
+
+    @keyframes plocdix { /*ici vous renseignez le nom de l'animation à réutiliser 
+      pour la propriété animation-name*/
+      
+      0%{opacity: 0%;
+      }
+      100% {opacity: 100%;
+      
+      }
+
+    }  
+
+    #ploconze{
+      color: lightskyblue;
+      opacity: 0%;
+      font-size: 100px;
+      position: absolute;
+      top: 3950px;
+      left: 90px;
+      animation-name: ploconze ; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+    animation-duration: 500ms; /*durée totale d'une itération de l'animation en seconde*/
+    animation-iteration-count: 1; /*nombre d'itération de l'animation*/
+    animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+    animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+    animation-delay : 11s;
+
+    }
+
+    @keyframes ploconze { /*ici vous renseignez le nom de l'animation à réutiliser 
+      pour la propriété animation-name*/
+      
+      0%{opacity: 0%;
+      }
+      100% {opacity: 100%;
+      
+      }
+
+    }  
+
+    #plocdouze{
+      color: lightskyblue;
+      opacity: 0%;
+      font-size: 100px;
+      position: absolute;
+      top: 3950px;
+      left: 280px;
+      animation-name: plocdouze ; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+    animation-duration: 500ms; /*durée totale d'une itération de l'animation en seconde*/
+    animation-iteration-count: 1; /*nombre d'itération de l'animation*/
+    animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+    animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+    animation-delay : 12s;
+
+    }
+
+    @keyframes plocdouze { /*ici vous renseignez le nom de l'animation à réutiliser 
+      pour la propriété animation-name*/
+      
+      0%{opacity: 0%;
+      }
+      100% {opacity: 100%;
+      
+      }
+
+    }  
+  
+    #ploctreize{
+      color: lightskyblue;
+      opacity: 0%;
+      font-size: 100px;
+      position: absolute;
+      top: 3950px;
+      left: 470px;
+      animation-name: ploctreize ; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+    animation-duration: 500ms; /*durée totale d'une itération de l'animation en seconde*/
+    animation-iteration-count: 1; /*nombre d'itération de l'animation*/
+    animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+    animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+    animation-delay : 13s;
+
+    }
+
+    @keyframes ploctreize { /*ici vous renseignez le nom de l'animation à réutiliser 
+      pour la propriété animation-name*/
+      
+      0%{opacity: 0%;
+      }
+      100% {opacity: 100%;
+      
+      }
+
+    }  
+    #plocquatorze{
+      color: lightskyblue;
+      opacity: 0%;
+      font-size: 100px;
+      position: absolute;
+      top: 3950px;
+      left: 660px;
+      animation-name: plocquatorze ; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+    animation-duration: 500ms; /*durée totale d'une itération de l'animation en seconde*/
+    animation-iteration-count: 1; /*nombre d'itération de l'animation*/
+    animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+    animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+    animation-delay : 14s;
+
+    }
+
+    @keyframes plocquatorze { /*ici vous renseignez le nom de l'animation à réutiliser 
+      pour la propriété animation-name*/
+      
+      0%{opacity: 0%;
+      }
+      100% {opacity: 100%;
+      
+      }
+
+    }  
+    #plocquinze{
+      color: lightskyblue;
+      opacity: 0%;
+      font-size: 100px;
+      position: absolute;
+      top: 3950px;
+      left: 850px;
+      animation-name: plocquinze ; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+    animation-duration: 500ms; /*durée totale d'une itération de l'animation en seconde*/
+    animation-iteration-count: 1; /*nombre d'itération de l'animation*/
+    animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+    animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+    animation-delay : 15s;
+
+    }
+
+    @keyframes plocquinze { /*ici vous renseignez le nom de l'animation à réutiliser 
+      pour la propriété animation-name*/
+      
+      0%{opacity: 0%;
+      }
+      100% {opacity: 100%;
+      
+      }
+
+    }  
+    #plocseize{
+      color: lightskyblue;
+      opacity: 0%;
+      font-size: 100px;
+      position: absolute;
+      top: 3950px;
+      left: 1040px;
+      animation-name: plocseize ; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+    animation-duration: 500ms; /*durée totale d'une itération de l'animation en seconde*/
+    animation-iteration-count: 1; /*nombre d'itération de l'animation*/
+    animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+    animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+    animation-delay : 16s;
+
+    }
+
+    @keyframes plocseize { /*ici vous renseignez le nom de l'animation à réutiliser 
+      pour la propriété animation-name*/
+      
+      0%{opacity: 0%;
+      }
+      100% {opacity: 100%;
+      
+      }
+
+    }  
+    #plocdixsept{
+      color: lightskyblue;
+      opacity: 0%;
+      font-size: 100px;
+      position: absolute;
+      top: 3950px;
+      left: 1230px;
+      animation-name: plocdixsept ; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+    animation-duration: 500ms; /*durée totale d'une itération de l'animation en seconde*/
+    animation-iteration-count: 1; /*nombre d'itération de l'animation*/
+    animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+    animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+    animation-delay : 17s;
+
+    }
+
+    @keyframes plocdixsept { /*ici vous renseignez le nom de l'animation à réutiliser 
+      pour la propriété animation-name*/
+      
+      0%{opacity: 0%;
+      }
+      100% {opacity: 100%;
+      
+      }
+
+    }  
+
+    #plocdixhuit{
+      color: lightskyblue;
+      opacity: 0%;
+      font-size: 100px;
+      position: absolute;
+      top: 3950px;
+      left: 1420px;
+      animation-name: plocdixhuit ; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+    animation-duration: 500ms; /*durée totale d'une itération de l'animation en seconde*/
+    animation-iteration-count: 1; /*nombre d'itération de l'animation*/
+    animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+    animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+    animation-delay : 18s;
+
+    }
+
+    @keyframes plocdixhuit { /*ici vous renseignez le nom de l'animation à réutiliser 
+      pour la propriété animation-name*/
+      
+      0%{opacity: 0%;
+      }
+      100% {opacity: 100%;
+      
+      }
+
+    }  
+
+    #plocdixneuf{
+      color: lightskyblue;
+      opacity: 0%;
+      font-size: 100px;
+      position: absolute;
+      top: 3950px;
+      left: 1610px;
+      animation-name: plocdixneuf ; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+    animation-duration: 500ms; /*durée totale d'une itération de l'animation en seconde*/
+    animation-iteration-count: 1; /*nombre d'itération de l'animation*/
+    animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+    animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+    animation-delay : 19s;
+
+    }
+
+    @keyframes plocdixneuf { /*ici vous renseignez le nom de l'animation à réutiliser 
+      pour la propriété animation-name*/
+      
+      0%{opacity: 0%;
+      }
+      100% {opacity: 100%;
+      
+      }
+
+    }  
+
+    #plocvingt{
+      color: lightskyblue;
+      opacity: 0%;
+      font-size: 100px;
+      position: absolute;
+      top: 3950px;
+      left: 1800px;
+      animation-name: plocvingt ; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+    animation-duration: 500ms; /*durée totale d'une itération de l'animation en seconde*/
+    animation-iteration-count: 1; /*nombre d'itération de l'animation*/
+    animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+    animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+    animation-delay : 20s;
+
+    }
+
+    @keyframes plocvingt { /*ici vous renseignez le nom de l'animation à réutiliser 
+      pour la propriété animation-name*/
+      
+      0%{opacity: 0%;
+      }
+      100% {opacity: 100%;
+      
+      }
+
+    }  
+
+    #plocvingtun{
+      color: lightskyblue;
+      opacity: 0%;
+      font-size: 100px;
+      position: absolute;
+      top: 4100px;
+      left: 90px;
+      animation-name: plocvingtun ; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+    animation-duration: 500ms; /*durée totale d'une itération de l'animation en seconde*/
+    animation-iteration-count: 1; /*nombre d'itération de l'animation*/
+    animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+    animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+    animation-delay : 21s;
+
+    }
+
+    @keyframes plocvingtun { /*ici vous renseignez le nom de l'animation à réutiliser 
+      pour la propriété animation-name*/
+      
+      0%{opacity: 0%;
+      }
+      100% {opacity: 100%;
+      
+      }
+
+    }  
+    #plocvingtdeux{
+      color: lightskyblue;
+      opacity: 0%;
+      font-size: 100px;
+      position: absolute;
+      top: 4100px;
+      left: 280px;
+      animation-name: plocvingtdeux ; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+    animation-duration: 500ms; /*durée totale d'une itération de l'animation en seconde*/
+    animation-iteration-count: 1; /*nombre d'itération de l'animation*/
+    animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+    animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+    animation-delay : 22s;
+
+    }
+
+    @keyframes plocvingtdeux { /*ici vous renseignez le nom de l'animation à réutiliser 
+      pour la propriété animation-name*/
+      
+      0%{opacity: 0%;
+      }
+      100% {opacity: 100%;
+      
+      }
+
+    }  
+    #plocvingttrois{
+      color: lightskyblue;
+      opacity: 0%;
+      font-size: 100px;
+      position: absolute;
+      top: 4100px;
+      left: 470px;
+      animation-name: plocvingttrois ; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+    animation-duration: 500ms; /*durée totale d'une itération de l'animation en seconde*/
+    animation-iteration-count: 1; /*nombre d'itération de l'animation*/
+    animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+    animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+    animation-delay : 23s;
+
+    }
+
+    @keyframes plocvingttrois { /*ici vous renseignez le nom de l'animation à réutiliser 
+      pour la propriété animation-name*/
+      
+      0%{opacity: 0%;
+      }
+      100% {opacity: 100%;
+      
+      }
+
+    }  
+    #plocvingtquatre{
+      color: lightskyblue;
+      opacity: 0%;
+      font-size: 100px;
+      position: absolute;
+      top: 4100px;
+      left: 660px;
+      animation-name: plocvingtquatre ; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+    animation-duration: 500ms; /*durée totale d'une itération de l'animation en seconde*/
+    animation-iteration-count: 1; /*nombre d'itération de l'animation*/
+    animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+    animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+    animation-delay : 24s;
+
+    }
+
+    @keyframes plocvingtquatre { /*ici vous renseignez le nom de l'animation à réutiliser 
+      pour la propriété animation-name*/
+      
+      0%{opacity: 0%;
+      }
+      100% {opacity: 100%;
+      
+      }
+
+    }  
+
+    #plocvingtcinq{
+      color: lightskyblue;
+      opacity: 0%;
+      font-size: 100px;
+      position: absolute;
+      top: 4100px;
+      left: 850px;
+      animation-name: plocvingtcinq ; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+    animation-duration: 500ms; /*durée totale d'une itération de l'animation en seconde*/
+    animation-iteration-count: 1; /*nombre d'itération de l'animation*/
+    animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+    animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+    animation-delay : 25s;
+
+    }
+
+    @keyframes plocvingtcinq { /*ici vous renseignez le nom de l'animation à réutiliser 
+      pour la propriété animation-name*/
+      
+      0%{opacity: 0%;
+      }
+      100% {opacity: 100%;
+      
+      }
+
+    }  
+
+    #plocvingtsix{
+      color: lightskyblue;
+      opacity: 0%;
+      font-size: 100px;
+      position: absolute;
+      top: 4100px;
+      left: 1040px;
+      animation-name: plocvingtsix ; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+    animation-duration: 500ms; /*durée totale d'une itération de l'animation en seconde*/
+    animation-iteration-count: 1; /*nombre d'itération de l'animation*/
+    animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+    animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+    animation-delay : 26s;
+
+    }
+
+    @keyframes plocvingtsix { /*ici vous renseignez le nom de l'animation à réutiliser 
+      pour la propriété animation-name*/
+      
+      0%{opacity: 0%;
+      }
+      100% {opacity: 100%;
+      
+      }
+
+    }  
+
+    #plocvingtsept{
+      color: lightskyblue;
+      opacity: 0%;
+      font-size: 100px;
+      position: absolute;
+      top: 4100px;
+      left: 1230px;
+      animation-name: plocvingtsept ; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+    animation-duration: 500ms; /*durée totale d'une itération de l'animation en seconde*/
+    animation-iteration-count: 1; /*nombre d'itération de l'animation*/
+    animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+    animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+    animation-delay : 27s;
+
+    }
+
+    @keyframes plocvingtsept { /*ici vous renseignez le nom de l'animation à réutiliser 
+      pour la propriété animation-name*/
+      
+      0%{opacity: 0%;
+      }
+      100% {opacity: 100%;
+      
+      }
+
+    }  
+
+    #plocvingthuit{
+      color: lightskyblue;
+      opacity: 0%;
+      font-size: 100px;
+      position: absolute;
+      top: 4100px;
+      left: 1420px;
+      animation-name: plocvingthuit ; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+    animation-duration: 500ms; /*durée totale d'une itération de l'animation en seconde*/
+    animation-iteration-count: 1; /*nombre d'itération de l'animation*/
+    animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+    animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+    animation-delay : 28s;
+
+    }
+
+    @keyframes plocvingthuit { /*ici vous renseignez le nom de l'animation à réutiliser 
+      pour la propriété animation-name*/
+      
+      0%{opacity: 0%;
+      }
+      100% {opacity: 100%;
+      
+      }
+
+    }  
+
+    #plocvingtneuf{
+      color: lightskyblue;
+      opacity: 0%;
+      font-size: 100px;
+      position: absolute;
+      top: 4100px;
+      left: 1610px;
+      animation-name: plocvingtneuf ; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+    animation-duration: 500ms; /*durée totale d'une itération de l'animation en seconde*/
+    animation-iteration-count: 1; /*nombre d'itération de l'animation*/
+    animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+    animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+    animation-delay : 29s;
+
+    }
+
+    @keyframes plocvingtneuf { /*ici vous renseignez le nom de l'animation à réutiliser 
+      pour la propriété animation-name*/
+      
+      0%{opacity: 0%;
+      }
+      100% {opacity: 100%;
+      
+      }
+
+    }  
+
+    #ploctrente{
+      color: lightskyblue;
+      opacity: 0%;
+      font-size: 100px;
+      position: absolute;
+      top: 4100px;
+      left: 1800px;
+      animation-name: ploctrente ; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+    animation-duration: 500ms; /*durée totale d'une itération de l'animation en seconde*/
+    animation-iteration-count: 1; /*nombre d'itération de l'animation*/
+    animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+    animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+    animation-delay : 30s;
+
+    }
+
+    @keyframes ploctrente { /*ici vous renseignez le nom de l'animation à réutiliser 
+      pour la propriété animation-name*/
+      
+      0%{opacity: 0%;
+      }
+      100% {opacity: 100%;
+      
+      }
+
+    }  
+
+    #sp{
+      color: darkslategray;
+      opacity: 100%;
+      font-size: 130px;
+      font-variation-settings: "BLED" 0;
+      position: absolute;
+      top: 3950px;
+      left: 250px;
+      animation-name: sp ; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+    animation-duration: 2000ms; /*durée totale d'une itération de l'animation en seconde*/
+    animation-iteration-count: infinite; /*nombre d'itération de l'animation*/
+    animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+    animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+    animation-delay : 0s;
+
+    }
+
+    @keyframes sp { /*ici vous renseignez le nom de l'animation à réutiliser 
+      pour la propriété animation-name*/
+      
+      0%{font-variation-settings: "BLED" 0;
+      }
+      100% {font-variation-settings: "BLED" 100;
+      
+      }
+
+    }  
+
+    #spun{
+      color: darkslategray;
+      opacity: 100%;
+      font-size: 130px;
+      font-variation-settings: "BLED" 0;
+      position: absolute;
+      top: 3950px;
+      left: 1050px;
+      animation-name: sp ; /*renseigner ici le nome de l'animation c'est écrit à côté de keyframes*/
+    animation-duration: 2000ms; /*durée totale d'une itération de l'animation en seconde*/
+    animation-iteration-count: infinite; /*nombre d'itération de l'animation*/
+    animation-direction: alternate;/*lire l'animation dans un sens puis dans l'autre*/
+    animation-fill-mode: forwards;/*si l'animation doit se terminer elle garde sa valeur finale*/
+    animation-delay : 0s;
+
+    }
+
+    @keyframes sp { /*ici vous renseignez le nom de l'animation à réutiliser 
+      pour la propriété animation-name*/
+      
+      0%{font-variation-settings: "BLED" 0;
+      }
+      100% {font-variation-settings: "BLED" 100;
+      
+      }
+
+    }  
+
+
+    
